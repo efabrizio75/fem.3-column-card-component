@@ -65,6 +65,7 @@ The basic layout in which the Results summary component code is rendered follows
 ### Questions
 
 1. Has anyone tried to use an anchor tag rather than a button for the "Learn More" link? I believe it is more semantic to use an anchor tag, but I found it very hard to implement the color changes.
+2. I noticed that the color palette given in the style-guide.md for this challenge has low contrast ratio: is it worth it modifying it in order to comply with WCAG 2.1 AA?
 
 ## Author
 

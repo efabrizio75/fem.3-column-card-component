@@ -106,6 +106,21 @@ footer {
   color: var(--col_tWhite);
 }
 
+h1[class~="sr-only"], span[class~="sr-only"] {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  padding: 0;
+  margin: -1px;
+}
+
+
 @media only screen and (min-width: 375px) and (max-width: 960px) {
    #preview-cards {
       flex-direction: row;
