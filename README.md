@@ -50,8 +50,8 @@ The basic layout in which the Results summary component code is rendered follows
 ```html
 <div id="preview-cards">
   <section class="card">
-    <img src="..." alt="..." />
-    <p class="type" role="term">
+    <img src="..." alt="...">
+    <h2 class="type">
     <p role="definition">
     <button class="details">
   </section>
@@ -61,6 +61,7 @@ The basic layout in which the Results summary component code is rendered follows
 ### What I learned
 
 1. After much thinking, I decided to apply the rounded corners using the CSS pseudo classes. Therefore, for the stacked cards version, I styled with the top border-radius of the first-child, and the bottom border-radius of the last-child. These selectors work also for the side-by-side version of the component.
+2. Using a section tag without a heading in it causes a warning by the W3C validator. Hence, I implemented the type of car as an header level 2 instead of a paragraph.
 
 ### Questions
 
