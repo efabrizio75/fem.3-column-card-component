@@ -29,8 +29,7 @@ In the source code you will find what I consider the bare minimum markup and sty
 
 Sandboxes with the solution are available at the following links:
 
-- View it on Repl.it: [Live solution]()
-- View it on Codepen: [Live solution]()
+- View it on Repl.it: [Live solution](https://fem3-column-card-component.emanuelef75.repl.co)
 
 ## My process
 
