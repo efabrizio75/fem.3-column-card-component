@@ -106,7 +106,8 @@ footer {
   color: var(--col_tWhite);
 }
 
-h1[class~="sr-only"], span[class~="sr-only"] {
+h1[class~="sr-only"],
+span[class~="sr-only"] {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
@@ -120,28 +121,30 @@ h1[class~="sr-only"], span[class~="sr-only"] {
   margin: -1px;
 }
 
-
 @media only screen and (min-width: 375px) and (max-width: 960px) {
-   #preview-cards {
-      flex-direction: row;
-   }
+  #preview-cards {
+    flex-direction: row;
+  }
 }
 
 @media only screen and (min-width: 961px) {
   main {
-      align-items: center;
+    align-items: center;
   }
-   #preview-cards {
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: center;
+  #preview-cards {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .card .details {
+    margin-top: 5.8em;
   }
   .card:first-child {
-   border-top-right-radius: unset;
-   border-bottom-left-radius: var(--card_border);
+    border-top-right-radius: unset;
+    border-bottom-left-radius: var(--card_border);
   }
   .card:last-child {
-   border-bottom-left-radius: unset;
-   border-top-right-radius: var(--card_border);
+    border-bottom-left-radius: unset;
+    border-top-right-radius: var(--card_border);
   }
 }
